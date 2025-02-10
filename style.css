@@ -85,7 +85,7 @@ h2 {
 }
 
 .inima-page .parallax-inima-2 {
-    background-image: url('poza_inima_2.jpg');
+    background-image: url('imagini/Untitled.jpg');
 }
 
 .inima-page .parallax-inima-3 {
@@ -110,4 +110,16 @@ h4 .sep{
     background: #c9c7c7;
 }
 
+.container, .imagine {
+    display: flex;
+    justify-content: center;  /* Centrează imaginea pe orizontală */
+    align-items: center;      /* Centrează imaginea și pe verticală (dacă are înălțime) */
+    min-height: 500px;            /* Înălțime completă a ecranului */
+    background-color: #f0f0f0;
+    max-width: 90%;
+    margin: auto;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
 
