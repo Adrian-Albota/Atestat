@@ -7,13 +7,13 @@ body, html {
 }
 
 nav {
-    max-width: 1480px;
+    max-width: 90%;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     background-color: #ff6a6a;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     z-index: 1000;
     transition: top 0.3s;
@@ -35,7 +35,7 @@ header {
     padding-top: 70px;
     padding-bottom: 1px;
     text-align: center;
-    max-width: 1500px;
+    max-width: 90%;
     margin: auto;
     margin-bottom: 10px;
     border-bottom-left-radius: 12px;
@@ -45,11 +45,11 @@ header {
 
 .container, .content {
     background-color: white;
-    max-width: 1500px;
+    max-width: 90%;
     margin: auto;
     margin-bottom: 10px;
     padding: 20px;
-    text-align: center;
+    text-align: justify;
     box-shadow: 1px 1px 10px 1px #eeeeee;
     border-radius: 12px;
 }
@@ -75,11 +75,13 @@ h2 {
 
 /* Stiluri specifice pentru pagina Inima */
 .inima-page .parallax-inima-1 {
+    /*height: 700px;*/
     margin:auto;
     border-radius: 12px;
-    max-width: 1540px;
+    max-width: 90%;
     margin-bottom: 10px;
-    background-image: url('imagini/HD-wallpaper-aortic-arch-anatomy-function-and-significance-human-heart.jpg');
+    background-image: url('imagini/peakpx.jpg');
+    padding: 20px;
 }
 
 .inima-page .parallax-inima-2 {
@@ -97,7 +99,7 @@ footer {
     padding: 20px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    max-width: 1500px;
+    max-width: 90%;
     margin: auto;
 }
 
