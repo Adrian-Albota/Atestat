@@ -28,6 +28,10 @@ nav a {
     color: #333;
 }
 
+nav a:hover {
+    color: #ffffff;
+}
+
 header {
     background-color: #ffffff;
     padding-left: 20px;
@@ -73,23 +77,32 @@ h2 {
     width: 100%;
 }
 
-/* Stiluri specifice pentru pagina Inima */
 .inima-page .parallax-inima-1 {
     /*height: 700px;*/
     margin:auto;
     border-radius: 12px;
     max-width: 90%;
     margin-bottom: 10px;
-    background-image: url('imagini/peakpx.jpg');
     padding: 20px;
+    background-image: url('imagini/peakpx.jpg');
 }
 
-.inima-page .parallax-inima-2 {
-    background-image: url('imagini/Untitled.jpg');
+.vase-page .parallax-vase-1 {
+    margin:auto;
+    border-radius: 12px;
+    max-width: 90%;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-image: url('imagini/img_vase.webp');
 }
 
-.inima-page .parallax-inima-3 {
-    background-image: url('poza_inima_3.jpg');
+.boli-page .parallax-boli-1 {
+    margin:auto;
+    border-radius: 12px;
+    max-width: 90%;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-image: url('imagini/online-cardiology-consultation-1024x683.jpg');
 }
 
 footer {
@@ -112,9 +125,9 @@ h4 .sep{
 
 .container, .imagine {
     display: flex;
-    justify-content: center;  /* Centrează imaginea pe orizontală */
-    align-items: center;      /* Centrează imaginea și pe verticală (dacă are înălțime) */
-    min-height: 500px;            /* Înălțime completă a ecranului */
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
     background-color: #f0f0f0;
     max-width: 90%;
     margin: auto;
