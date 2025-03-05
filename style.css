@@ -78,7 +78,6 @@ h2 {
 }
 
 .inima-page .parallax-inima-1 {
-    /*height: 700px;*/
     margin:auto;
     border-radius: 12px;
     max-width: 90%;
@@ -103,6 +102,15 @@ h2 {
     margin-bottom: 10px;
     padding: 20px;
     background-image: url('imagini/online-cardiology-consultation-1024x683.jpg');
+}
+
+.index-page .parallax-index-1 {
+    margin:auto;
+    border-radius: 12px;
+    max-width: 90%;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-image: url('imagini/poza_acasa.webp');
 }
 
 footer {
