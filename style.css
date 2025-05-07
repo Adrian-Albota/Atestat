@@ -136,7 +136,7 @@ h4 .sep{
     justify-content: center;
     align-items: center;
     min-height: 500px;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     max-width: 90%;
     margin: auto;
     border-radius: 12px;
@@ -144,3 +144,40 @@ h4 .sep{
     margin-bottom: 10px;
   }
 
+  .swiper {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    background: #007bff00;
+    border-radius: 10px;
+    font-family: inherit;
+}
+
+.swiper-button-next,
+.swiper-button-prev, 
+.swiper-pagination {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.swiper:hover .swiper-button-next,
+.swiper:hover .swiper-button-prev,
+.swiper:hover .swiper-pagination{
+    opacity: 0.6;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover,
+.swiper-pagination:hover{
+    opacity: 1;
+}
