@@ -1,0 +1,203 @@
+/* Stiluri generale pentru pagină */
+body, html {
+    background-color: #f8f8f8; /* Culoare de fundal deschisă */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asigură că padding-ul și marginile sunt incluse în dimensiuni */
+    font-family: Arial, sans-serif; /* Font de bază clar și lizibil */
+}
+
+/* Bara de navigație fixată sus */
+nav {
+    max-width: 90%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ff6a6a; /* Roșu deschis */
+    padding: 20px;
+    text-align: center;
+    z-index: 1000; /* Se suprapune peste alte elemente */
+    transition: top 0.3s; /* Tranziție la ascundere/apariție */
+    margin: auto;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/* Linkuri din bara de navigație */
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333; /* Gri închis */
+}
+
+nav a:hover {
+    color: #ffffff; /* Alb la hover */
+}
+
+/* Antetul paginii */
+header {
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 70px; /* Spațiu pentru a nu se suprapune cu bara de navigație */
+    padding-bottom: 1px;
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 1px 1px 10px 1px #eeeeee; /* Umbră discretă */
+}
+
+/* Container general pentru conținut */
+.container, .content {
+    background-color: white;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 1px 1px 10px 1px #eeeeee;
+    border-radius: 12px;
+}
+
+/* Titlu principal */
+h1 {
+    color: #ff6a6a;
+}
+
+/* Subtitlu centrat */
+h2 {
+    text-align: center;
+    color: #ff6a6a;
+}
+
+/* Efect parallax pentru fundal */
+.parallax {
+    position: relative;
+    background-attachment: fixed; /* Efect de fundal fix la scroll */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+}
+
+/* Parallax specific pentru pagina inimii */
+.inima-page .parallax-inima-1 {
+    margin: auto;
+    border-radius: 12px;
+    max-width: 90%;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-image: url('imagini/peakpx.jpg');
+}
+
+/* Parallax pentru pagina vaselor */
+.vase-page .parallax-vase-1 {
+    margin: auto;
+    border-radius: 12px;
+    max-width: 90%;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-image: url('imagini/img_vase.webp');
+}
+
+/* Parallax pentru pagina bolilor */
+.boli-page .parallax-boli-1 {
+    margin: auto;
+    border-radius: 12px;
+    max-width: 90%;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-image: url('imagini/online-cardiology-consultation-1024x683.jpg');
+}
+
+/* Parallax pentru pagina index */
+.index-page .parallax-index-1 {
+    margin: auto;
+    border-radius: 12px;
+    max-width: 90%;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-image: url('imagini/poza_acasa.webp');
+}
+
+/* Footer-ul paginii */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #ff6a6a;
+    padding: 20px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    max-width: 90%;
+    margin: auto;
+}
+
+/* Linie separator decorativă */
+h4 .sep {
+    height: 1px;
+    width: 100%;
+    display: inline-block;
+    background: #c9c7c7;
+}
+
+/* Container și imagine aliniate pe centru */
+.container, .imagine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background-color: #ffffff;
+    max-width: 90%;
+    margin: auto;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* Stil pentru slider Swiper */
+.swiper {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Slide individual din swiper */
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    background: #007bff00; /* Complet transparent */
+    border-radius: 10px;
+    font-family: inherit;
+}
+
+/* Butoane swiper ascunse inițial */
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Afișare butoane la hover pe slider */
+.swiper:hover .swiper-button-next,
+.swiper:hover .swiper-button-prev,
+.swiper:hover .swiper-pagination {
+    opacity: 0.6;
+}
+
+/* Afișare completă la hover direct pe buton */
+.swiper-button-next:hover,
+.swiper-button-prev:hover,
+.swiper-pagination:hover {
+    opacity: 1;
+}
